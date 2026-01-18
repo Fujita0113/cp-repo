@@ -11,7 +11,7 @@ K = int(input())
 A = list(map(int, input().split()))
 ```
 
-canCutWithMinLength関数について考えていく。
+			canCutWithMinLength関数について考えていく。
 これはまずcutCountと、prePositionを0で初期化する
 ```python
 def canCutWithMinLength(minLength):
